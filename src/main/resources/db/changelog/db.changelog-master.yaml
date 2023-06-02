@@ -1,0 +1,19 @@
+databaseChangeLog:
+  - include:
+      file: db/changelog/create_crisis_center_table.sql
+  - include:
+      file: db/changelog/create_funds_table.sql
+  - include:
+      file: db/changelog/create_moms_house_table.sql
+  - include:
+      file: db/changelog/create_helpline_table.sql
+  - include:
+      file: db/changelog/create_articles_table.sql
+  - include:
+      file: db/changelog/create_company_info_table.sql
+  - include:
+      file: db/changelog/create_persons_table.sql
+  - include:
+      file: db/changelog/create_feedback_table.sql
+  - include:
+      file: db/changelog/create_improvements_table.sql
